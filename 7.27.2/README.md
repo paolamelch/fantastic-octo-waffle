@@ -6,3 +6,5 @@ Indicazioni utili:
 
 - Il risultato dovrà essere questo: Luca-Marco-Vittorio-Giovanni
 - Sei hai qualche dubbio, qui trovi tutti i metodi che abbiamo per lavorare con gli array: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+now with even more updates!
