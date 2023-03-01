@@ -1,3 +1,4 @@
-Here's my new feature!
-add a line!!!!
-edit a line, make a new one
+
+Here's my second feature
+better than the first feature
+>>>>>>> feature2
