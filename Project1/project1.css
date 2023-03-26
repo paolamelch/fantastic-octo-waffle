@@ -1,0 +1,97 @@
+#logo {
+  text-align: center;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap:70px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: rgb(80, 79, 79);
+}
+
+.menu li a:hover{
+  color:darkred;
+}
+
+.background {
+  background-image: url(media/switzerland-862870_1920.jpg);
+  height: 500px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gradient{
+  background: linear-gradient(to bottom, white 0%, transparent 90%);
+}
+
+h1{
+  text-align: center;
+  color: darkred;
+  background-image: url(media/mountains.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size:50px;
+  letter-spacing: 0.7em;
+  height:320px;
+  padding:180px 0px 0px 0px;
+  width:auto;
+}
+.quote{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top:20px;
+}
+
+q{
+  position: relative;
+  max-width: 500px;
+  color:rgb(80, 79, 79);
+}
+
+q::before{
+  content: "″";
+  position: absolute;
+  color:darkred;
+  font-size: 40px;
+  top:-10px;
+  left:-15px;
+}
+
+q::after{
+  content: "″";
+  position: absolute;
+  color:darkred;
+  font-size: 40px;
+  bottom:-35px;
+  right:5px;
+}
+
+.menu-icons{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap:125px;
+  padding-right: 20px;
+  border: 3px solid darkred;
+}
+
+.menu-icons li{
+  border: 3px solid darkred;
+  width:150px;
+  height:150px;
+  text-align: center;
+}
